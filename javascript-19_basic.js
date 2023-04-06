@@ -23,6 +23,6 @@ for(let i=0; i<10; i++){
 
 console.log(elementsData.length);
 
-const asdf = render(elementsData.join(''));
+const asdf = render(elementsData.join('<br>'));
 
 console.log(asdf);
